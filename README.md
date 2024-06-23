@@ -1,4 +1,3 @@
-# CPU Scheduling Algorithms
 # CPU Scheduling Algorithms in C++
 
 This project provides an implementation of several CPU scheduling algorithms using C++. The algorithms included are First Come First Serve (FCFS), Round Robin (RR), Shortest Process Next (SPN), Shortest Remaining Time (SRT), Highest Response Ratio Next (HRRN), Feedback (FB), and Aging.
