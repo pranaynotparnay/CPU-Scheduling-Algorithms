@@ -15,7 +15,6 @@ This project provides an implementation of several CPU scheduling algorithms usi
   - [Aging](#aging)
 - [Setup Instructions](#setup-instructions)
 - [Input Format](#input-format)
-- [Contributors](#contributors)
 
 ## Overview
 
