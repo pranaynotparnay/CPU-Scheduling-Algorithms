@@ -61,3 +61,38 @@ The Aging algorithm addresses process starvation by gradually increasing the pri
 2. Ensure you have `g++` and `make` installed on your system.
    ```bash
    sudo apt-get install g++ make
+3.Compile the code using the make command.
+4.Run the generated executable.
+
+## Input Format
+
+1. **First line:** "trace" or "stats"
+2. **Second line:** A comma-separated list of CPU scheduling policies and their parameters, if any. Policies are represented by numbers:
+    - 1: FCFS
+    - 2: RR
+    - 3: SPN
+    - 4: SRT
+    - 5: HRRN
+    - 6: FB-1
+    - 7: FB-2i
+    - 8: Aging
+    - Example: `2-4` for Round Robin with quantum 4, `8-1` for Aging with quantum 1.
+3. **Third line:** An integer for the last simulation time to be shown on the timeline.
+4. **Fourth line:** An integer for the number of processes to be simulated.
+5. **Starting from the fifth line:** Process descriptions. For algorithms 1-7, each process is described by:
+    - Process name
+    - Arrival time
+    - Service time
+    - For algorithm 8 (Aging):
+        - Process name
+        - Arrival time
+        - Priority
+
+Processes should be listed in order of arrival time. If arrival times are the same, lower priority processes are assumed to arrive first.
+
+Refer to the attached test cases for more details.
+
+**Suggestions:**
+**a.** Run the project to ensure all algorithms perform as expected.
+**b.** Add  testcases to validate each scheduling algorithm's functionality.
+
