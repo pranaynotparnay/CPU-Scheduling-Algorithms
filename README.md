@@ -91,7 +91,4 @@ Processes should be listed in order of arrival time. If arrival times are the sa
 
 Refer to the attached test cases for more details.
 
-**Suggestions:**
-**a.** Run the project to ensure all algorithms perform as expected.
-**b.** Add  testcases to validate each scheduling algorithm's functionality.
 
